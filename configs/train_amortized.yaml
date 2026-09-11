@@ -1,0 +1,28 @@
+# Proposed model: amortized initializer + K short Langevin refinement steps under a
+# learned energy critic. K is the explicit speed-accuracy knob.
+#
+# Clean decomposition (src/train_energy.py): the DATA-GROUNDED initializer is the
+# feed-forward encoder+InitNet (trained by BCE to GT, see train_feedforward.yaml); a
+# separate energy critic is then fit by contrastive divergence on the FROZEN
+# initializer features. Therefore amortized(K=0) == feed-forward exactly, and K
+# Langevin steps refine at inference.
+# Why frozen: back-propagating the energy/CD objective through the shared encoder
+# pulls it away from localization and degrades the initializer below the plain
+# feed-forward model; regressing the model's own refined samples (pure cooperative
+# teaching, no data anchor) bootstrap-collapses to background on real video.
+stage1_initializer: see configs/train_feedforward.yaml (encoder+InitNet, BCE, 8000 it)
+stage2_energy_critic:
+  script: src/train_energy.py
+  init_ckpt: runs_video/feedforward.pt   # frozen encoder + InitNet
+  trains: EnergyNet only
+  iters: 3000
+  batch: 16
+  lr: 1.0e-3
+  neg_steps_K: 5           # negatives = init proposal refined by K Langevin steps
+  step_size: 5.0
+  noise: 0.02
+  loss: E(pos=GT) - E(neg) + hinge(1 + E(pos) - E(hard=shifted GT)) + 0.05*(E(pos)^2 + E(neg)^2)
+  eval_every: 500
+  val_n: 128
+inference: feed-forward init + K Langevin steps under E (K swept 0..20 at test time)
+train_wallclock: reported as feed-forward + energy-critic wall-clock combined

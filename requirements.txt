@@ -1,0 +1,18 @@
+# Pinned versions used for every number reported in the paper.
+#
+# GPU (what we used): NVIDIA DGX Spark, GB10 Grace-Blackwell, aarch64, sm_121.
+# Standard PyPI torch wheels do NOT provide GPU support on aarch64 -- install torch
+# and torchvision from NVIDIA's CUDA index instead (adjust cu130 to your CUDA):
+#
+#   uv venv --python 3.12 .venv
+#   UV_HTTP_TIMEOUT=900 uv pip install --python .venv/bin/python \
+#       torch==2.12.1 torchvision==0.27.1 --index-url https://download.pytorch.org/whl/cu130
+#   uv pip install --python .venv/bin/python -r requirements.txt
+#
+# torchvision is required for RAFT-large (optical flow precomputation).
+torch==2.12.1
+torchvision==0.27.1
+numpy
+matplotlib
+tqdm
+pillow

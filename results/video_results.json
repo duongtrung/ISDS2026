@@ -1,0 +1,233 @@
+[
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 10,
+  "J": 0.0733,
+  "J_std": 0.0488,
+  "F": 0.0823,
+  "JF": 0.0778,
+  "ms_per_frame": 32.2,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 25,
+  "J": 0.0736,
+  "J_std": 0.049,
+  "F": 0.0822,
+  "JF": 0.0779,
+  "ms_per_frame": 93.1,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 50,
+  "J": 0.074,
+  "J_std": 0.0493,
+  "F": 0.082,
+  "JF": 0.078,
+  "ms_per_frame": 180.65,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 100,
+  "J": 0.0745,
+  "J_std": 0.0497,
+  "F": 0.0815,
+  "JF": 0.078,
+  "ms_per_frame": 320.54,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 200,
+  "J": 0.0752,
+  "J_std": 0.0507,
+  "F": 0.0807,
+  "JF": 0.0779,
+  "ms_per_frame": 643.27,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "baseline",
+  "steps": 400,
+  "J": 0.0758,
+  "J_std": 0.0519,
+  "F": 0.0794,
+  "JF": 0.0776,
+  "ms_per_frame": 1278.74,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 0,
+  "J": 0.2272,
+  "J_std": 0.1433,
+  "F": 0.2309,
+  "JF": 0.2291,
+  "ms_per_frame": 1.76,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 1,
+  "J": 0.2273,
+  "J_std": 0.1433,
+  "F": 0.2309,
+  "JF": 0.2291,
+  "ms_per_frame": 5.02,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 2,
+  "J": 0.2274,
+  "J_std": 0.1433,
+  "F": 0.2307,
+  "JF": 0.2291,
+  "ms_per_frame": 7.94,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 3,
+  "J": 0.2275,
+  "J_std": 0.1434,
+  "F": 0.2305,
+  "JF": 0.229,
+  "ms_per_frame": 11.67,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 5,
+  "J": 0.2277,
+  "J_std": 0.1435,
+  "F": 0.2304,
+  "JF": 0.2291,
+  "ms_per_frame": 18.3,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 8,
+  "J": 0.228,
+  "J_std": 0.1436,
+  "F": 0.23,
+  "JF": 0.229,
+  "ms_per_frame": 27.74,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 10,
+  "J": 0.2283,
+  "J_std": 0.1437,
+  "F": 0.2298,
+  "JF": 0.229,
+  "ms_per_frame": 33.93,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "amortized",
+  "steps": 20,
+  "J": 0.2292,
+  "J_std": 0.1441,
+  "F": 0.2289,
+  "JF": 0.2291,
+  "ms_per_frame": 66.69,
+  "n": 1356
+ },
+ {
+  "dataset": "davis",
+  "variant": "feedforward",
+  "steps": 0,
+  "J": 0.2272,
+  "J_std": 0.1433,
+  "F": 0.2309,
+  "JF": 0.2291,
+  "ms_per_frame": 1.74,
+  "n": 1356
+ },
+ {
+  "dataset": "fbms",
+  "variant": "baseline",
+  "steps": 100,
+  "J": 0.1369,
+  "J_std": 0.1081,
+  "F": 0.0928,
+  "JF": 0.1149,
+  "ms_per_frame": 314.76,
+  "n": 337
+ },
+ {
+  "dataset": "fbms",
+  "variant": "amortized",
+  "steps": 5,
+  "J": 0.1244,
+  "J_std": 0.1286,
+  "F": 0.1543,
+  "JF": 0.1393,
+  "ms_per_frame": 18.12,
+  "n": 337
+ },
+ {
+  "dataset": "fbms",
+  "variant": "feedforward",
+  "steps": 0,
+  "J": 0.124,
+  "J_std": 0.1283,
+  "F": 0.1546,
+  "JF": 0.1393,
+  "ms_per_frame": 1.71,
+  "n": 337
+ },
+ {
+  "dataset": "segtrack",
+  "variant": "baseline",
+  "steps": 100,
+  "J": 0.0675,
+  "J_std": 0.0587,
+  "F": 0.0605,
+  "JF": 0.064,
+  "ms_per_frame": 311.97,
+  "n": 1052
+ },
+ {
+  "dataset": "segtrack",
+  "variant": "amortized",
+  "steps": 5,
+  "J": 0.0866,
+  "J_std": 0.0905,
+  "F": 0.1264,
+  "JF": 0.1065,
+  "ms_per_frame": 17.59,
+  "n": 1052
+ },
+ {
+  "dataset": "segtrack",
+  "variant": "feedforward",
+  "steps": 0,
+  "J": 0.0861,
+  "J_std": 0.0903,
+  "F": 0.1265,
+  "JF": 0.1063,
+  "ms_per_frame": 1.71,
+  "n": 1052
+ }
+]

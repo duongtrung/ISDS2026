@@ -1,0 +1,38 @@
+[
+ {
+  "dataset": "davis",
+  "variant": "flowthresh",
+  "steps": 0,
+  "modality": "flow",
+  "ch": 0,
+  "J": 0.1086,
+  "F": 0.379,
+  "JF": 0.2438,
+  "ms_per_frame": 0.0,
+  "n": 1356
+ },
+ {
+  "dataset": "fbms",
+  "variant": "flowthresh",
+  "steps": 0,
+  "modality": "flow",
+  "ch": 0,
+  "J": 0.1984,
+  "F": 0.297,
+  "JF": 0.2477,
+  "ms_per_frame": 0.0,
+  "n": 337
+ },
+ {
+  "dataset": "segtrack",
+  "variant": "flowthresh",
+  "steps": 0,
+  "modality": "flow",
+  "ch": 0,
+  "J": 0.3555,
+  "F": 0.3854,
+  "JF": 0.3704,
+  "ms_per_frame": 0.0,
+  "n": 1052
+ }
+]

@@ -1,0 +1,32 @@
+# ---- datasets (16 GB; download with scripts/download_data.sh) ----
+data/
+
+# ---- python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- LaTeX build artifacts ----
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# ---- Springer LNCS class files: obtain from the official LNCS author kit;
+#      we do not redistribute them (see paper/README.md) ----
+paper/llncs.cls
+paper/splncs04.bst
+
+# ---- local working notes (not part of the public release) ----
+CLAUDE.md
+HANDOFF.md
+
+# ---- misc ----
+.DS_Store
+*.swp

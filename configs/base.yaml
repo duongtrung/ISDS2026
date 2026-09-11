@@ -1,0 +1,21 @@
+# Shared configuration for the DAVIS-16 / FBMS-59 / SegTrack-v2 experiments.
+# These files document the exact hyperparameters (the code is driven by argparse;
+# scripts/run_all_train.sh and scripts/run_rq*.sh pass these values). Numbers in the
+# paper come only from logged JSON via src/gen_tables*.py and src/plots*.py.
+seed: 0                     # model init, data order, Langevin noise (rule 4)
+input:
+  height: 256
+  width: 448
+  channels: 5              # RGB (3) + RAFT flow (2)
+  flow_scale: 20.0         # raw flow divided by this for ~[-1,1]
+architecture:
+  encoder_channels: 32
+  energy_head: per-location # energy map -> spatial mean (NOT global pool)
+optical_flow:
+  model: RAFT-large (torchvision Raft_Large_Weights.DEFAULT)
+  direction: t-1 -> t, stored as <frame_t>.npy
+environment:
+  device: NVIDIA GB10 (Grace-Blackwell, sm_121), 128 GB unified memory, aarch64
+  torch: 2.12.1+cu130
+  torchvision: 0.27.1+cu130
+  python: 3.12.13 (uv venv)

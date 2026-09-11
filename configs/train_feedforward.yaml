@@ -1,0 +1,13 @@
+# Feed-forward supervised baseline (extra model): encoder + InitNet head trained
+# with BCE against the GT mask. No energy, no Langevin. Isolates the contribution
+# of the learned energy + refinement over a same-capacity feed-forward segmenter.
+variant: feedforward
+dataset: DAVIS-16 train
+iters: 8000
+batch: 16
+lr: 1.0e-3
+optimizer: Adam
+loss: BCEWithLogits(init(enc(x)), y)
+eval_every: 500            # periodic DAVIS-val J for the RQ1 efficiency curve
+val_n: 128
+inference: single forward pass (steps = 0)

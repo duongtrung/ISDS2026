@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code or the findings of this paper, please cite it as below."
+title: "Amortized Initialization versus Langevin Refinement for Motion-Guided Segmentation: A Controlled Study of Conditional Energy-based Models (EBMs)"
+abstract: >-
+  A controlled study of conditional energy-based models (EBMs) for motion
+  segmentation. We replace long-run Langevin sampling from noise with a
+  data-grounded amortized initializer followed by K short Langevin refinement
+  steps, and quantify what the learned energy contributes over the initializer
+  alone across DAVIS-16, FBMS-59 and SegTrack-v2.
+type: software
+license: MIT
+authors:
+  - family-names: "Le Ha"
+    given-names: "Dung Ngoc"
+    orcid: "https://orcid.org/0009-0004-6247-0355"
+    affiliation: "Can Tho University of Technology, Can Tho City, Vietnam"
+    email: "hlndung@ctuet.edu.vn"
+  - family-names: "Tran"
+    given-names: "Thanh Dien"
+    affiliation: "Can Tho University, Can Tho City, Vietnam"
+    email: "thanhdien@ctu.edu.vn"
+  - family-names: "Duong-Trung"
+    given-names: "Nghia"
+    orcid: "https://orcid.org/0000-0002-7402-4166"
+    affiliation: "German Research Center for Artificial Intelligence (DFKI), Berlin, Germany"
+    email: "nghia_trung.duong@dfki.de"
+keywords:
+  - energy-based models
+  - motion segmentation
+  - amortized sampling
+  - Langevin dynamics
+  - video object segmentation
+# TODO(authors): fill in venue, year, pages and DOI once the proceedings are published.
+preferred-citation:
+  type: conference-paper
+  title: "Amortized Initialization versus Langevin Refinement for Motion-Guided Segmentation: A Controlled Study of Conditional Energy-based Models (EBMs)"
+  authors:
+    - family-names: "Le Ha"
+      given-names: "Dung Ngoc"
+      orcid: "https://orcid.org/0009-0004-6247-0355"
+    - family-names: "Tran"
+      given-names: "Thanh Dien"
+    - family-names: "Duong-Trung"
+      given-names: "Nghia"
+      orcid: "https://orcid.org/0000-0002-7402-4166"
+  collection-title: "Lecture Notes in Computer Science"
+  publisher:
+    name: "Springer"
+  year: 2026

@@ -1,0 +1,74 @@
+[
+ {
+  "model": "baseline-longrun",
+  "steps": 10,
+  "J": 0.0544,
+  "F": 0.1872,
+  "JF": 0.1208,
+  "ms_per_frame": 8.03
+ },
+ {
+  "model": "baseline-longrun",
+  "steps": 30,
+  "J": 0.0558,
+  "F": 0.1925,
+  "JF": 0.1242,
+  "ms_per_frame": 22.82
+ },
+ {
+  "model": "baseline-longrun",
+  "steps": 50,
+  "J": 0.0567,
+  "F": 0.1956,
+  "JF": 0.1261,
+  "ms_per_frame": 38.65
+ },
+ {
+  "model": "baseline-longrun",
+  "steps": 100,
+  "J": 0.0607,
+  "F": 0.209,
+  "JF": 0.1348,
+  "ms_per_frame": 119.15
+ },
+ {
+  "model": "amortized-Kstep",
+  "steps": 0,
+  "J": 0.2278,
+  "F": 0.6072,
+  "JF": 0.4175,
+  "ms_per_frame": 0.56
+ },
+ {
+  "model": "amortized-Kstep",
+  "steps": 1,
+  "J": 0.2302,
+  "F": 0.6288,
+  "JF": 0.4295,
+  "ms_per_frame": 1.35
+ },
+ {
+  "model": "amortized-Kstep",
+  "steps": 2,
+  "J": 0.2341,
+  "F": 0.6638,
+  "JF": 0.4489,
+  "ms_per_frame": 2.78
+ },
+ {
+  "model": "amortized-Kstep",
+  "steps": 5,
+  "J": 0.2473,
+  "F": 0.734,
+  "JF": 0.4907,
+  "ms_per_frame": 6.26
+ },
+ {
+  "model": "amortized-Kstep",
+  "steps": 10,
+  "J": 0.2631,
+  "F": 0.7771,
+  "JF": 0.5201,
+  "ms_per_frame": 12.18
+ }
+]

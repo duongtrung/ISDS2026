@@ -1,0 +1,20 @@
+# Original model: deep EBM sampled with long-run Langevin MCMC from noise.
+# Trained with persistent-contrastive-divergence (Rule 3: "persistent chains") so
+# the energy is well-conditioned; the long-run sampler's step-size/noise/N are then
+# tuned at INFERENCE (src/tune_sampler.py + the RQ2 N sweep up to 400), which is the
+# fair tuning pass for an inference-time sampler.
+variant: baseline
+dataset: DAVIS-16 train
+iters: 5000
+batch: 16
+lr: 1.0e-3
+optimizer: Adam
+persistent: true           # replay buffer of Langevin chains (PCD)
+buf_size: 1000
+neg_steps_N_train: 15      # Langevin steps per training iteration
+step_size: 5.0
+noise: 0.02
+loss: E(pos) - E(neg) + hinge(1 + E(pos) - E(hard)) + 0.05*(E(pos)^2 + E(neg)^2)
+eval_every: 500
+val_n: 128
+inference: noise init + N Langevin steps (N swept 10..400; sampler fair-tuned)

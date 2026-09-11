@@ -1,0 +1,80 @@
+===== S4: modality ablation (feed-forward) =====
+{'it': 0, 'loss': 0.706, 'pred_iou': 0.076, 't': 1.0}
+{'it': 200, 'loss': 0.25, 'pred_iou': 0.062, 't': 28.1}
+{'it': 400, 'loss': 0.21, 'pred_iou': 0.079, 't': 55.6}
+{'it': 600, 'loss': 0.258, 'pred_iou': 0.035, 't': 83.4}
+{'it': 800, 'loss': 0.237, 'pred_iou': 0.075, 't': 110.9}
+{'it': 1000, 'loss': 0.359, 'pred_iou': 0.053, 't': 138.3}
+{'it': 1200, 'loss': 0.19, 'pred_iou': 0.092, 't': 165.7}
+{'it': 1400, 'loss': 0.21, 'pred_iou': 0.123, 't': 193.3}
+{'it': 1600, 'loss': 0.174, 'pred_iou': 0.145, 't': 223.2}
+{'it': 1800, 'loss': 0.159, 'pred_iou': 0.231, 't': 268.2}
+{'it': 2000, 'loss': 0.205, 'pred_iou': 0.152, 't': 314.9}
+{'it': 2200, 'loss': 0.156, 'pred_iou': 0.221, 't': 361.8}
+{'it': 2400, 'loss': 0.196, 'pred_iou': 0.255, 't': 408.5}
+{'it': 2600, 'loss': 0.192, 'pred_iou': 0.282, 't': 461.6}
+{'it': 2800, 'loss': 0.171, 'pred_iou': 0.219, 't': 514.5}
+{'it': 3000, 'loss': 0.172, 'pred_iou': 0.186, 't': 567.9}
+{'it': 3200, 'loss': 0.154, 'pred_iou': 0.262, 't': 621.1}
+{'it': 3400, 'loss': 0.162, 'pred_iou': 0.247, 't': 674.2}
+{'it': 3600, 'loss': 0.188, 'pred_iou': 0.375, 't': 725.7}
+{'it': 3800, 'loss': 0.164, 'pred_iou': 0.311, 't': 775.7}
+{'it': 4000, 'loss': 0.131, 'pred_iou': 0.308, 't': 826.0}
+{'it': 4200, 'loss': 0.158, 'pred_iou': 0.307, 't': 876.1}
+{'it': 4400, 'loss': 0.124, 'pred_iou': 0.384, 't': 926.4}
+{'it': 4600, 'loss': 0.224, 'pred_iou': 0.43, 't': 976.4}
+{'it': 4800, 'loss': 0.147, 'pred_iou': 0.366, 't': 1026.9}
+{'it': 5000, 'loss': 0.138, 'pred_iou': 0.39, 't': 1077.2}
+{'it': 5200, 'loss': 0.119, 'pred_iou': 0.362, 't': 1127.5}
+{'it': 5400, 'loss': 0.131, 'pred_iou': 0.428, 't': 1177.9}
+{'it': 5600, 'loss': 0.124, 'pred_iou': 0.418, 't': 1228.0}
+{'it': 5800, 'loss': 0.137, 'pred_iou': 0.413, 't': 1278.4}
+{'it': 6000, 'loss': 0.112, 'pred_iou': 0.276, 't': 1329.7}
+{'it': 6200, 'loss': 0.146, 'pred_iou': 0.448, 't': 1379.9}
+{'it': 6400, 'loss': 0.117, 'pred_iou': 0.266, 't': 1430.3}
+{'it': 6600, 'loss': 0.127, 'pred_iou': 0.378, 't': 1466.5}
+{'it': 6800, 'loss': 0.113, 'pred_iou': 0.356, 't': 1490.7}
+{'it': 7000, 'loss': 0.139, 'pred_iou': 0.317, 't': 1526.8}
+{'it': 7200, 'loss': 0.165, 'pred_iou': 0.38, 't': 1577.0}
+{'it': 7400, 'loss': 0.108, 'pred_iou': 0.341, 't': 1626.9}
+{'it': 7600, 'loss': 0.107, 'pred_iou': 0.462, 't': 1676.7}
+{'it': 7800, 'loss': 0.133, 'pred_iou': 0.443, 't': 1722.1}
+saved runs_mod_rgb/feedforward.pt train_s 1745.8
+{'dataset': 'davis', 'variant': 'feedforward', 'steps': 0, 'modality': 'rgb', 'ch': 32, 'J': 0.2034, 'J_std': 0.1114, 'F': 0.2134, 'JF': 0.2084, 'ms_per_frame': 1.67, 'n': 1356}
+{'it': 0, 'loss': 0.708, 'pred_iou': 0.071, 't': 1.0}
+{'it': 200, 'loss': 0.26, 'pred_iou': 0.0, 't': 27.0}
+{'it': 400, 'loss': 0.274, 'pred_iou': 0.062, 't': 77.5}
+{'it': 600, 'loss': 0.215, 'pred_iou': 0.0, 't': 128.0}
+{'it': 800, 'loss': 0.27, 'pred_iou': 0.001, 't': 178.6}
+{'it': 1000, 'loss': 0.223, 'pred_iou': 0.016, 't': 228.9}
+{'it': 1200, 'loss': 0.244, 'pred_iou': 0.008, 't': 279.5}
+{'it': 1400, 'loss': 0.308, 'pred_iou': 0.009, 't': 329.9}
+{'it': 1600, 'loss': 0.257, 'pred_iou': 0.008, 't': 371.8}
+{'it': 1800, 'loss': 0.302, 'pred_iou': 0.019, 't': 422.4}
+{'it': 2000, 'loss': 0.291, 'pred_iou': 0.012, 't': 473.4}
+{'it': 2200, 'loss': 0.347, 'pred_iou': 0.045, 't': 524.1}
+{'it': 2400, 'loss': 0.172, 'pred_iou': 0.087, 't': 574.4}
+{'it': 2600, 'loss': 0.226, 'pred_iou': 0.089, 't': 625.1}
+{'it': 2800, 'loss': 0.289, 'pred_iou': 0.039, 't': 674.1}
+{'it': 3000, 'loss': 0.311, 'pred_iou': 0.066, 't': 715.6}
+{'it': 3200, 'loss': 0.295, 'pred_iou': 0.059, 't': 752.7}
+{'it': 3400, 'loss': 0.198, 'pred_iou': 0.128, 't': 779.0}
+{'it': 3600, 'loss': 0.34, 'pred_iou': 0.046, 't': 829.6}
+{'it': 3800, 'loss': 0.217, 'pred_iou': 0.1, 't': 880.3}
+{'it': 4000, 'loss': 0.261, 'pred_iou': 0.053, 't': 931.0}
+Traceback (most recent call last):
+  File "./src/eval_video.py", line 115, in <module>
+    main()
+  File "./src/eval_video.py", line 46, in main
+    ck = torch.load(a.ckpt, map_location=dev, weights_only=False)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/torch/serialization.py", line 1530, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/torch/serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/torch/serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'runs_mod_flow/feedforward.pt'
