@@ -6,7 +6,7 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![PyTorch 2.12](https://img.shields.io/badge/pytorch-2.12%2Bcu130-ee4c2c.svg)](https://pytorch.org/)
 
-Dung Ngoc Le Ha<sup>1,2</sup>, Tran Thanh Dien<sup>2</sup> ✉, Nghia Duong-Trung<sup>3</sup>
+Dung Ngoc Le Ha<sup>1,2</sup>, Tran Thanh Dien<sup>2</sup>, Nghia Duong-Trung<sup>3</sup>
 
 <sup>1</sup> Can Tho University of Technology, Can Tho City, Vietnam ·
 <sup>2</sup> Can Tho University, Can Tho City, Vietnam ·
