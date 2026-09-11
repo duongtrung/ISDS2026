@@ -118,17 +118,7 @@ paper/                  # LaTeX source, generated tables/figures, main.pdf
 
 ## Citation
 
-```bibtex
-@inproceedings{leha2026amortized,
-  title     = {Amortized Initialization versus Langevin Refinement for Motion-Guided
-               Segmentation: A Controlled Study of Conditional Energy-based Models (EBMs)},
-  author    = {Le Ha, Dung Ngoc and Tran, Thanh Dien and Duong-Trung, Nghia},
-  booktitle = {Lecture Notes in Computer Science (LNCS)},
-  publisher = {Springer},
-  year      = {2026}
-  % TODO(authors): add volume / pages / DOI once the proceedings appear.
-}
-```
+TBA
 
 ## License
 
