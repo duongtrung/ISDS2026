@@ -112,9 +112,6 @@ paper/                  # LaTeX source, generated tables/figures, main.pdf
   absolute `J` is well below task-specific VOS systems by design.
 - **Hardware.** All experiments ran on a single NVIDIA DGX Spark (GB10 Grace-Blackwell,
   20-core Arm CPU, 128 GB unified memory, `aarch64`), PyTorch 2.12.1+cu130.
-- **LNCS class files.** `paper/llncs.cls` and `paper/splncs04.bst` are Springer's and
-  are *not* redistributed here; download them from the official LNCS author kit and
-  place them in `paper/`.
 
 ## Citation
 
