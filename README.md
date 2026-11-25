@@ -115,20 +115,22 @@ paper/                  # LaTeX source, generated tables/figures, main.pdf
 
 ## Citation
 
-​```bibtex
-    @inproceedings{ha2026amortized,
-    title     = {Amortized Initialization Versus Langevin Refinement for
-               Motion-Guided Segmentation: A Controlled Study of
-               Conditional Energy-Based Models ({EBMs})},
-    author    = {Ha, Dung Ngoc Le and Dien, Tran Thanh and Duong-Trung, Nghia},
-    booktitle = {International Conference on Intelligent Systems and Data Science},
-    pages     = {437--450},
-    year      = {2026},
-    organization = {Springer}
-}
-```
+Ha, D. N. L., Dien, T. T., & Duong-Trung, N. (2026, November). Amortized Initialization Versus Langevin Refinement for Motion-Guided Segmentation: A Controlled Study of Conditional Energy-Based Models (EBMs). In *International Conference on Intelligent Systems and Data Science* (pp. 437–450). Singapore: Springer Nature Singapore.
 
-Ha, D. N. L., Dien, T. T., & Duong-Trung, N. (2026, November). Amortized Initialization Versus Langevin Refinement for Motion-Guided Segmentation: A Controlled Study of Conditional Energy-Based Models (EBMs). In International Conference on Intelligent Systems and Data Science (pp. 437-450). Singapore: Springer Nature Singapore.
+### BibTeX
+
+~~~bibtex
+@inproceedings{ha2026amortized,
+  title        = {Amortized Initialization Versus Langevin Refinement for
+                  Motion-Guided Segmentation: A Controlled Study of
+                  Conditional Energy-Based Models ({EBMs})},
+  author       = {Ha, Dung Ngoc Le and Dien, Tran Thanh and Duong-Trung, Nghia},
+  booktitle    = {International Conference on Intelligent Systems and Data Science},
+  pages        = {437--450},
+  year         = {2026},
+  organization = {Springer}
+}
+~~~
 
 ## License
 
